@@ -1,0 +1,34 @@
+JavaScript:
+
+id - Identifica os elementos com os quais queremos interagir. Ex:
+
+<p id='p1'>palavra</p>
+<script>
+
+    function show() {
+        document.getElementById('id do elemento').innerHTML = 'frase';
+    }
+</script>
+
+document.getElementById('id do elemento') - Instrução usada para acessar um elemento.
+
+. innerHTML = ''; - Atributo que recupera o texto de um elemento html.
+
+html:
+
+<button onclick="variavel()"> Clicar</button>
+
+onclick - Defina oq acontece quando os visitantes clicam em um botão.
+
+
+
+querySelector() - recupera um elemento HTML individual. usado para acessar qual
+quer elemento específico em um pagina web.
+
+getElementsByTagName() - como ele, podemos obter uma coleção.(Retorna uma coleção de elementos
+que possuem a mesma tag).
+
+getElementsByClassName() - elementos com class.(Retorna uma coleção de elementos que têm o mesmo
+seletor de class).
+
+variável.length
